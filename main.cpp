@@ -1,9 +1,6 @@
 #include <iostream>
 
-auto f() noexcept {
-  return "Hello world\n";
-}
-
-int main() {
-  std::cout << f();
+int main() 
+{
+  std::cout << "Hello world\n";
 }
