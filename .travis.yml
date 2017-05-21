@@ -1,0 +1,7 @@
+language: cpp
+compiler: gcc
+
+script: 
+  - cmake -D CMakeLists.txt
+  - make
+  - ./travis_cmake_gcc_cpp98
