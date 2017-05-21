@@ -2,6 +2,6 @@ language: cpp
 compiler: gcc
 
 script: 
-  - cmake -D CMakeLists.txt
+  - cmake CMakeLists.txt
   - make
   - ./travis_cmake_gcc_cpp98
